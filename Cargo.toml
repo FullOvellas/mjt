@@ -1,0 +1,11 @@
+[package]
+name = "mjt"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+mjl = { git = "https://github.com/FullOvellas/mjd.git", branch = "main" }
+mjp = { git = "https://github.com/FullOvellas/mjd.git", branch = "main" }
+clap = { version = "4.5.60", features = ["derive"] }
+clap-stdin = "0.8.0"

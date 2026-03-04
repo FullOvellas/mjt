@@ -10,7 +10,7 @@ fn emit_value(value: Value, indentation: u8, nesting: u8) -> String {
         Object(pairs) => emit_object(pairs, indentation, nesting),
         Array(values) => emit_array(values, indentation, nesting),
         Str(s) => format!("\"{s}\""),
-        Number(n) => n,
+        Number(n) => n.to_string(),
         Boolean(b) => b.to_string(),
         Null => "null".to_string(),
     }

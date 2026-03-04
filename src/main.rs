@@ -43,7 +43,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 }
 
-fn do_parse(input: &MaybeStdin<String>) -> Result<Json, Box<dyn Error>> {
+fn do_parse<'a>(input: &'a MaybeStdin<String>) -> Result<Json<'a>, Box<dyn Error>> {
     parse(JsonLexer {
         input,
         byte_offset: 0,

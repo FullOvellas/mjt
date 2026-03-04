@@ -143,12 +143,12 @@ checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
 [[package]]
 name = "mjd-workspace-hack"
 version = "0.1.0"
-source = "git+https://github.com/FullOvellas/mjd.git?branch=main#6d75cddf77f351f5bd9581ab7da6a26884ed7b59"
+source = "git+https://github.com/FullOvellas/mjd.git?branch=main#4afebb3255c6962a586e6d867e4f639c7ad564a4"
 
 [[package]]
 name = "mjl"
 version = "0.1.1"
-source = "git+https://github.com/FullOvellas/mjd.git?branch=main#6d75cddf77f351f5bd9581ab7da6a26884ed7b59"
+source = "git+https://github.com/FullOvellas/mjd.git?branch=main#4afebb3255c6962a586e6d867e4f639c7ad564a4"
 dependencies = [
  "lazy_static",
  "mjd-workspace-hack",
@@ -158,7 +158,7 @@ dependencies = [
 [[package]]
 name = "mjp"
 version = "0.1.0"
-source = "git+https://github.com/FullOvellas/mjd.git?branch=main#6d75cddf77f351f5bd9581ab7da6a26884ed7b59"
+source = "git+https://github.com/FullOvellas/mjd.git?branch=main#4afebb3255c6962a586e6d867e4f639c7ad564a4"
 dependencies = [
  "mjd-workspace-hack",
  "mjl",
@@ -191,9 +191,9 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.44"
+version = "1.0.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "21b2ebcf727b7760c461f091f9f0f539b77b8e87f2fd88131e7f1b433b3cece4"
+checksum = "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924"
 dependencies = [
  "proc-macro2",
 ]
